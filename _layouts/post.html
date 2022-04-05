@@ -6,4 +6,17 @@ layout: default
 {{ content }}
 
 <audio autoplay loop preload="auto" src="https://litdevs.org/miiverses.mp3"></audio>
+<i id="ldingcmnts">Loading comments...</i>
 <script src="https://utteranc.es/client.js" repo="Vukkyy/blog" issue-term="pathname" label="comments" theme="github-light" crossorigin="anonymous" async></script>
+
+<script>
+  // wtf
+  let doodoomogus = setInterval(function() {
+    if(document.querySelector(".utterances-frame")) {
+      document.querySelector(".utterances-frame").onload = function() {
+        clearInterval(doodoomogus);
+        document.querySelector("#ldingcmnts").remove();
+      });
+    }
+  }, 1);
+</script>

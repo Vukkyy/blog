@@ -1,5 +1,6 @@
 ---
 title: "Here we go again"
+layout: post
 ---
 
 ## Here we go again

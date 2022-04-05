@@ -6,5 +6,3 @@
     </li>
   {% endfor %}
 </ul>
-
-## Stuff that I'm writing

@@ -10,6 +10,8 @@ layout: default
 
 <script>
   function pleaseworklol() {
-    alert(document.querySelector(".utterances-frame"))
+    document.querySelector(".utterances-frame").onfocus = function(){
+      alert("test");
+    }
   }
 </script>

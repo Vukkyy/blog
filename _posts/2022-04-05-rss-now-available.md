@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "RSS now available"
+date: 2022-04-05T08:26:48Z
 ---
 
 The RSS feed has returned to the blog now, which means this is officially the new spot for the Vukky blog.

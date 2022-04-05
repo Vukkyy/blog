@@ -1,4 +1,10 @@
 ## Stuff you can read right now
-Test
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 ## Stuff that I'm writing

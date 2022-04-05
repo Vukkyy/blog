@@ -12,3 +12,14 @@ layout: default
 {% endif %}
 
 <script src="https://utteranc.es/client.js" repo="Vukkyy/blog" issue-term="pathname" label="comments" theme="github-light" crossorigin="anonymous" async></script>
+<script>
+{% if page.htitle %} 
+document.querySelector("header h1").innerHTML = "{{ page.htitle }}";
+{% endif %}
+{% if page.hdesc %} 
+document.querySelector("header p").innerHTML = "{{ page.hdesc }}";
+{% endif %}
+{% if page.bg %} 
+document.querySelector("body").style.background = "{{ page.bg }}";
+{% endif %}
+</script>

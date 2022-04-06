@@ -1,6 +1,7 @@
 theme: jekyll-theme-modernist
 title: Vukky's blog
 description: Random ramblings and such.
+author: Vukky
 
 plugins:
   - jekyll-feed

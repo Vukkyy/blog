@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "LIT Devs: A New Horizon"
+date: 2022-04-06T11:03:49Z
 htitle: "LIT Devs"
 hdesc: "Cool software for cool people."
 ---

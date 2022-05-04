@@ -10,6 +10,8 @@ Hi, we're making some changes to LIT Devs today.
 
 ## sald binf
 
+**(UPDATE - May 4th, 2022)** - LIT Devs has discontinued the SaladBind software. All users have been migrated to a fork created by someone else.
+
 The SaladBind roles and channels have been removed from our Discord server, and we are no longer providing non-urgent support for SaladBind in general. The [FAQ](https://wiki.litdevs.org/wiki/SaladBind/FAQ) page is still available and there are no plans to completely discontinue the software at this time.
 
 As a result of this, we have pushed an update to SaladBind, 1.7.5, to remove references to our Discord server.

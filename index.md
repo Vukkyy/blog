@@ -9,4 +9,4 @@ home: true
 {% endfor %}
 
 <h2 style="margin-top: 20px">Other things</h2>
-This is not my main website. You can find my main website [here](https://sus.omg.lol).<br>There is also an RSS feed available, which can be found [here](https://blog.sus.omg.lol/feed.xml).
+This is not my main website. You can find my main website [here](https://sus.omg.lol).<br>There is also an RSS feed available, which can be found [here](https://blog.sus.omg.lol/feed.xml).<br>I also write things on [status.cafe](https://status.cafe/users/vukky).

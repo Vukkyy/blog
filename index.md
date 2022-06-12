@@ -1,3 +1,7 @@
+---
+home: true
+---
+
 ## Stuff you can read right now
 <audio autoplay loop preload="auto" src="https://litdevs.org/miiversel.mp3"></audio>
 {% for post in site.posts %}

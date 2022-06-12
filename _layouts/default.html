@@ -15,10 +15,12 @@
       <header>
         <h1>{{ page.htitle | default: site.title }}</h1>
         <p>{{ page.hdesc | default: site.description }}</p>
+        {% if page.url != "/" and page.url != "/index.html" %}
         <p class="view"><a href="/">View all posts</a></p>
         <ul>
           <li><a href="/">View All <strong>Posts</strong></a></li>
         </ul>
+        {% endif %}
       </header>
       <section>
 

@@ -7,7 +7,7 @@ home: true
 {% for post in site.posts %}
 <div class="preview-box">
 <h2 style="margin-bottom: 0;">{{ post.title }}</h2> {{ post.date | date_to_long_string: "ordinal", "US" }}<br>
-<p>{{ post.excerpt }}</p>
+<p>{{ post.excerpt }} <a href="{{ post.url }}">Continue reading...</a></p>
 </div>
 {% endfor %}
 

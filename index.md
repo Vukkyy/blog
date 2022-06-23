@@ -5,7 +5,10 @@ home: true
 ## Stuff you can read right now
 <audio autoplay loop preload="auto" src="https://litdevs.org/miiversel.mp3"></audio>
 {% for post in site.posts %}
-<p style="margin:0;"><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_long_string: "ordinal", "US" }}</p>
+<div class="preview-box">
+<h2 style="margin-bottom: 0;">{{ post.title }}</h2> {{ post.date | date_to_long_string: "ordinal", "US" }}<br><br>
+<p>{{ post.excerpt }}</p>
+</div>
 {% endfor %}
 
 <h2 style="margin-top: 20px">Other things</h2>

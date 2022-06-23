@@ -6,7 +6,7 @@ home: true
 <audio autoplay loop preload="auto" src="https://litdevs.org/miiversel.mp3"></audio>
 {% for post in site.posts %}
 <div class="preview-box">
-<h2 style="margin-bottom: 0;">{{ post.title }}</h2> {{ post.date | date_to_long_string: "ordinal", "US" }}<br><br>
+<h2 style="margin-bottom: 0;">{{ post.title }}</h2> {{ post.date | date_to_long_string: "ordinal", "US" }}<br>
 <p>{{ post.excerpt }}</p>
 </div>
 {% endfor %}
